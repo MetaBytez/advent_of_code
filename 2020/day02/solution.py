@@ -26,11 +26,7 @@ def part_2():
             position_1 = int(position_1) - 1
             position_2 = int(position_2) - 1
 
-            if (
-                (password[position_1] == letter and password[position_2] != letter)
-                or
-                (password[position_1] != letter and password[position_2] == letter)
-            ):
+            if (password[position_1] == letter) ^ (password[position_2] == letter):
                 valid_count += 1
 
         return valid_count
