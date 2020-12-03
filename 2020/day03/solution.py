@@ -1,5 +1,6 @@
 # https://adventofcode.com/2020/day/3
 
+from functools import reduce
 from typing import List, Tuple
 
 
@@ -20,13 +21,17 @@ def count_trees(slope: Tuple[int, int], tree_map: List[str]) -> int:
 def part_1():
     """250"""
     with open('input.txt') as f:
-        tree_map = list(map(lambda x: x.strip(), f.readlines()))
-    return count_trees((3,1), tree_map)
+        return count_trees(
+            (3,1),
+            [
+                line.strip()
+                for line in f.readlines()
+            ]
+        )
 
 
 def part_2():
     """1592662500"""
-    total = 1
     slopes = [
         (1,1),
         (3,1),
@@ -36,12 +41,18 @@ def part_2():
     ]
 
     with open('input.txt') as f:
-        tree_map = list(map(lambda x: x.strip(), f.readlines()))
+        tree_map = [
+            line.strip()
+            for line in f.readlines()
+        ]
 
-    for slope in slopes:
-        total *= count_trees(slope, tree_map)
-
-    return total
+    return reduce(
+        lambda x, y: x*y,
+        [
+            count_trees(slope, tree_map)
+            for slope in slopes
+        ]
+    )
 
 
 if __name__ == '__main__':
