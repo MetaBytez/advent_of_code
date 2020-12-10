@@ -5,7 +5,7 @@ The included Dockerfile has the means to run each language used, and the .bashrc
 
 
 ## Language Calendar
- - Day 01 - 
+ - Day 01 - [LOLCODE](http://www.lolcode.org/)
  - Day 02 - 
  - Day 03 - 
  - Day 04 - 
