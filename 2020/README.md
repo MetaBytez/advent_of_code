@@ -1,7 +1,8 @@
 # [Advent of Code 2020](https://adventofcode.com/2020)
-Each day is done in Python3 and one other language, for a total of 26 different languages for the full set.
+Each day is done in Python3 and at least one other language. I'll to make it as diverse as possible, but there are only so many "reasonable" options, and even fewer "unreasonable" options I'm willing to attempt.
 
-## Language Calendar
+
+## Additional Languages Calendar
  - Day 01 - [LOLCODE](http://www.lolcode.org/)
  - Day 02 - 
  - Day 03 - 
