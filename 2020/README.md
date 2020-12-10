@@ -3,16 +3,28 @@ Each day is done in Python3 and at least one other language. I'll to make it as 
 
 
 ## Additional Languages Calendar
- - Day 01 - [LOLCODE](http://www.lolcode.org/)
- - Day 02 - 
- - Day 03 - 
- - Day 04 - 
- - Day 05 - 
- - Day 06 - 
- - Day 07 - 
- - Day 08 - 
- - Day 09 - 
- - Day 10 - 
+ - Day 01
+    - [Python3](https://www.python.org/)
+    - [LOLCODE](http://www.lolcode.org/)
+    - [C++](http://www.cplusplus.com/)
+ - Day 02 -
+    - [Python3](https://www.python.org/)
+ - Day 03 -
+    - [Python3](https://www.python.org/)
+ - Day 04 -
+    - [Python3](https://www.python.org/)
+ - Day 05 -
+    - [Python3](https://www.python.org/)
+ - Day 06 -
+    - [Python3](https://www.python.org/)
+ - Day 07 -
+    - [Python3](https://www.python.org/)
+ - Day 08 -
+    - [Python3](https://www.python.org/)
+ - Day 09 -
+    - [Python3](https://www.python.org/)
+ - Day 10 -
+    - [Python3](https://www.python.org/)
  - Day 11 - 
  - Day 12 - 
  - Day 13 - 
