@@ -4,8 +4,6 @@
 def part_1(data: list[int]) -> int:
     """2400"""
     diffs = {}
-    current = 0
-    _next = 0
 
     nums = sorted(data)
     nums.append(nums[-1]+3)
