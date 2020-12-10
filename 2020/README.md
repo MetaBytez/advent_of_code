@@ -1,9 +1,6 @@
 # [Advent of Code 2020](https://adventofcode.com/2020)
 Each day is done in Python3 and one other language, for a total of 26 different languages for the full set.
 
-The included Dockerfile has the means to run each language used, and the .bashrc file includes any useful aliases.
-
-
 ## Language Calendar
  - Day 01 - [LOLCODE](http://www.lolcode.org/)
  - Day 02 - 
