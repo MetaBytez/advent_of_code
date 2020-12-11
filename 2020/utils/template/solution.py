@@ -2,10 +2,12 @@
 
 
 def part_1(data: list[str]) -> int:
+    """"""
     pass
 
 
 def part_2(data: list[str]) -> int:
+    """"""
     pass
 
 
