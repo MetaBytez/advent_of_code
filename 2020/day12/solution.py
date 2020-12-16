@@ -1,4 +1,4 @@
-# https://adventofcode.com/2020/day/
+# https://adventofcode.com/2020/day/12
 
 
 def part_1(data: list[str]) -> int:
